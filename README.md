@@ -1,21 +1,21 @@
 # Learn
 Learning materials for IBM Data Science Experience, SPSS, Watson Machine Learning, etc.
 
-## IBM Data Science Experience
+# IBM Data Science Experience (DSX)
 
-###Projects
+## Projects
 **Projects** are where you work with Data Assets, Notebooks, Dashboards, and Flows
 - Create project
 - Add collaborators
 - Add data assets. Over 30 Connections to connect to other IBM and 3rd party services
 
-###Catalog
+## Catalog
 **Catalog** is a searchable index of all structured and unstructured data living in existing systems and cloud platforms
 - Create a new catalog
 - Upload a file, add tags
 - Add the file to a project
 
-###Notebooks
+## Notebooks
 **Notebook** is an interactive web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text. Notebook is where you can work with Python, R, and Scala code along with Spark to create document-like analytics.
 
 - Create a new notebook
@@ -24,19 +24,18 @@ Learning materials for IBM Data Science Experience, SPSS, Watson Machine Learnin
 
 ![](https://github.com/mlhubca/learn/blob/master/images/notebook.png)
 
-###SPSS Modeler/Flows
+## SPSS Modeler/Flows
 **SPSS Modeler/Machine learning Flow** is a graphical representation of data, by using the Flow Editor to prepare or shape data, train or deploy a model, or transform data and export it back to a database table or file in object storage.* Modeler offers modeling techniques, such as prediction, classification, segmentation, and association detection algorithms using SPSS Modeler or Scala Spark 2.0 Runtimes.
 
 ![](https://github.com/mlhubca/learn/blob/master/images/bank-churn-flow.png)
 
-###Model Builder
+## Model Builder
 **Model builder** uses the power of Watson Machine Learning to automatically prepare data and build models.*
 *The model builder in manual model allows you to select and evaluate multiple machine learning models*
 
 ![](https://github.com/mlhubca/learn/blob/master/images/bank-churn-model.png)
 
-
-###RStudio
+## RStudio
 R is a programming language and software environment for statistical computing, graphical representation, and reporting. **RStudio** is a free and open-source integrated development environment (IDE) for R.
 
 ###Data Refiner (Beta)
