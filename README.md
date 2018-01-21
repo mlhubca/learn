@@ -8,11 +8,15 @@ Learning materials for IBM Data Science Experience, SPSS, Watson Machine Learnin
 - Add collaborators
 - Add data assets. Over 30 Connections to connect to other IBM and 3rd party services
 
+![](https://github.com/mlhubca/learn/blob/master/images/projects.png)
+
 ### Catalog
 **Catalog** is a searchable index of all structured and unstructured data living in existing systems and cloud platforms
 - Create a new catalog
 - Upload a file, add tags
 - Add the file to a project
+
+![](https://github.com/mlhubca/learn/blob/master/images/catalog.png)
 
 ### Notebooks
 **Notebook** is an interactive web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text. Notebook is where you can work with Python, R, and Scala code along with Spark to create document-like analytics.
@@ -36,6 +40,8 @@ Learning materials for IBM Data Science Experience, SPSS, Watson Machine Learnin
 
 ### RStudio
 R is a programming language and software environment for statistical computing, graphical representation, and reporting. **RStudio** is a free and open-source integrated development environment (IDE) for R.
+
+![](https://github.com/mlhubca/learn/blob/master/images/rstudio.png)
 
 ### Data Refiner (Beta)
 **Data Refiner** is where you can prepare, cleanse, and process data
