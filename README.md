@@ -27,8 +27,8 @@ Learning materials for IBM Data Science Experience, SPSS, Watson Machine Learnin
 
 ![](https://github.com/mlhubca/learn/blob/master/images/notebook.png)
 
-### SPSS Modeler/Flows
-**SPSS Modeler/Machine learning Flow** is a graphical representation of data, by using the Flow Editor to prepare or shape data, train or deploy a model, or transform data and export it back to a database table or file in object storage.* Modeler offers modeling techniques, such as prediction, classification, segmentation, and association detection algorithms using SPSS Modeler or Scala Spark 2.0 Runtimes.
+### SPSS Modeler Flows
+**SPSS Modeler Flow** is a graphical representation of data, by using the Flow Editor to prepare or shape data, train or deploy a model, or transform data and export it back to a database table or file in object storage. Modeler offers modeling techniques, such as prediction, classification, segmentation, and association detection algorithms using SPSS Modeler or Scala Spark 2.0 Runtimes.
 
 ![](https://github.com/mlhubca/learn/blob/master/images/bank-churn-flow.png)
 
