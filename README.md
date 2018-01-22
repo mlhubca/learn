@@ -1,6 +1,10 @@
 Learning materials for IBM Data Science Experience, SPSS, Watson Machine Learning, etc.
 
-## IBM Data Science Experience (DSX)
+## IBM Data Science Experience (DSX) 
+
+https://datascience.ibm.com/
+
+![](https://github.com/mlhubca/learn/blob/master/images/dsx.png)
 
 ### Projects
 **Projects** are where you work with Data Assets, Notebooks, Dashboards, and Flows
