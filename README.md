@@ -4,7 +4,7 @@ Learning materials for IBM Data Science Experience, SPSS, Watson Machine Learnin
 
 https://datascience.ibm.com/
 
-The IBM Data Science Experience is a platform that data scientists can use to develop code by using their favorite tools. They can share projects through notebooks in a cloud-based environment that is designed to foster creativity and collaboration.
+The IBM Data Science Experience is a platform that data scientists can use to create and operate machine learning systems at scale. Data scientists can develop machine learning models by using their favorite tools and they can share projects through notebooks in a cloud-based environment that is designed to foster creativity and collaboration.
 
 ![](https://github.com/mlhubca/learn/blob/master/images/dsx.png)
 
