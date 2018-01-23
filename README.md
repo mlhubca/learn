@@ -15,30 +15,38 @@ IBM Data Science Experience (DSX) is an enterprise platform for data science and
 
 ![](https://github.com/mlhubca/learn/blob/master/images/dsx.png)
 
+
+## IBM Data Science Experience Components: 
+
 ### Projects
-**Projects** are where you work with Data Assets, Notebooks, Dashboards, and Flows
-- Create project
-- Add collaborators
-- Add data assets. Over 30 Connections to connect to other IBM and 3rd party services
+**Projects** are where you work with data assets, notebooks, dashboards, flows and other resources.
 
 ![](https://github.com/mlhubca/learn/blob/master/images/projects.png)
 
+Try yourself:
+- Create project
+- Add collaborators
+- Add data asset (Over 30 Connections to connect to other IBM and 3rd party services)
+
 ### Catalog
 **Catalog** is a searchable index of all structured and unstructured data living in existing systems and cloud platforms
+
+![](https://github.com/mlhubca/learn/blob/master/images/catalog.png)
+
+Try yourself:
 - Create a new catalog
 - Upload a file, add tags
 - Add the file to a project
 
-![](https://github.com/mlhubca/learn/blob/master/images/catalog.png)
-
 ### Notebooks
 **Notebook** is an interactive web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text. Notebook is where you can work with Python, R, and Scala code along with Spark to create document-like analytics.
 
+![](https://github.com/mlhubca/learn/blob/master/images/notebook.png)
+
+Try yourself:
 - Create a new notebook
 - Import a notebook
 - Run notebooks
-
-![](https://github.com/mlhubca/learn/blob/master/images/notebook.png)
 
 ### SPSS Modeler Flows
 **SPSS Modeler Flow** is a graphical representation of data, by using the Flow Editor to prepare or shape data, train or deploy a model, or transform data and export it back to a database table or file in object storage. Modeler offers modeling techniques, such as prediction, classification, segmentation, and association detection algorithms using SPSS Modeler or Scala Spark 2.0 Runtimes.
