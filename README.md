@@ -23,7 +23,7 @@ IBM Data Science Experience (DSX) is an enterprise platform for data science and
 
 ![](https://github.com/mlhubca/learn/blob/master/images/projects.png)
 
-Try yourself:
+Try it yourself:
 - Create project
 - Add collaborators
 - Add data asset (Over 30 Connections to connect to other IBM and 3rd party services)
@@ -33,7 +33,7 @@ Try yourself:
 
 ![](https://github.com/mlhubca/learn/blob/master/images/catalog.png)
 
-Try yourself:
+Try it yourself:
 - Create a new catalog
 - Upload a file, add tags
 - Add the file to a project
@@ -43,7 +43,7 @@ Try yourself:
 
 ![](https://github.com/mlhubca/learn/blob/master/images/notebook.png)
 
-Try yourself:
+Try it yourself:
 - Create a new notebook
 - Import a notebook
 - Run notebooks
