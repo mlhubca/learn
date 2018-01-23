@@ -6,11 +6,11 @@ https://datascience.ibm.com/
 
 IBM Data Science Experience (DSX) is an enterprise platform for data science and machine learning. 
 
-1) DSX provides a comprehensive collaborative workbench for your whole data science team including data engineers, app developers and data scientists to create and operate machine learning systems at scale.
+1) DSX provides a **comprehensive collaborative workbench** for your whole data science team including data engineers, app developers and data scientists to create and operate machine learning systems at scale.
 
-2) DSX covers the complete end to end machine learning workflow from model development to model management.
+2) DSX covers the **complete end to end machine learning workflow** from model development to model management.
 
-3) DSX is offered on **public cloud, private cloud and mainframe**, and provides fit-for-purpose deployment options so enterprise customers can bring machine learning capabilities to where their data resides. 
+3) DSX is offered on **public cloud, private cloud and mainframe**, and provides **fit-for-purpose deployment options** so enterprise customers can bring machine learning capabilities to where their data resides. 
 
 
 ![](https://github.com/mlhubca/learn/blob/master/images/dsx.png)
