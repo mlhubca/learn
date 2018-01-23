@@ -4,7 +4,14 @@ Learning materials for IBM Data Science Experience, SPSS, Watson Machine Learnin
 
 https://datascience.ibm.com/
 
-The IBM Data Science Experience is a platform that data scientists can use to create and operate machine learning systems at scale. Data scientists can develop machine learning models by using their favorite tools and they can share projects through notebooks in a cloud-based environment that is designed to foster creativity and collaboration.
+IBM Data Science Experience (DSX) is an enterprise platform for data science and machine learning. 
+
+1) DSX provides a comprehensive collaborative workbench for your whole data science team including data engineers, app developers and data scientists to create and operate machine learning systems at scale.
+
+2) DSX covers the complete end to end machine learning workflow from model development to model management.
+
+3) DSX is offered on **public cloud, private cloud and mainframe**, and provides fit-for-purpose deployment options so enterprise customers can bring machine learning capabilities to where their data resides. 
+
 
 ![](https://github.com/mlhubca/learn/blob/master/images/dsx.png)
 
