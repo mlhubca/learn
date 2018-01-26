@@ -1,8 +1,8 @@
 # Continuous learning and model evaluation
 
-![](https://github.com/mlhubca/learn/blob/master/images/evaluate.png)
-
 Because model deployment is not a one-time event, you can use IBM Data Science Experience to retrain a model with new data. To do this, you use the IBM Watson™ Machine Learning continuous learning system, which provides automated monitoring of model performance, retraining, and redeployment to ensure prediction quality.
+
+![](https://github.com/mlhubca/learn/blob/master/images/evaluate.png)
 
 
 ## Prerequisites
@@ -39,7 +39,7 @@ To retrain data, you must create a feedback data store. To send new records to t
     - Click Load Data and select the Desktop load type.
     - Drag file `drug_feedback_data_2.csv` to the load area and click Next.
     - Select Schema to import data and click New Table.
-    - Type a name for the new table and click Next.
+    - Type `drug_feedback_data` for the new table and click Next.
     - Use a semicolon (;) as the field separator.
     - Click Next to create a table with the uploaded data.
 
@@ -62,27 +62,24 @@ You can create a performance monitoring system for your predictive models. Creat
 
 **Optional**: While you can use the following steps, and the user interface that they explain, to upload feedback data and kick off evaluation, you can also call the available continuous learning REST API end-points directly to provide feedback data and kick off evaluation activities. For more information about the REST APIs, see REST API for Spark and Python models and REST API for SPSS models. You can integrate feedback APIs directly within your application, rather than performing model evaluation through the use of the following steps.
 
-1) open the project and select a model.
-From the Evaluation tab, in the Performance Monitoring section, click Edit configuration.
-Select a Spark service.
-Select a prediction type. If the type is known, it is automatically selected, otherwise in the Prediction type box select the type.
-In the Metric details section, you can choose the specific metrics that you want to track, and you can enter threshold values that can be used to trigger automatic retraining and redeployment activities
-Feedback data connection, click Select source.
-On the Select feedback data source page, choose values for the Connection, Schema, and Table options.
-In the Record count required for re-evaluation box, type the minimum number of new records to trigger retraining or leave blank to use the default value of 1000.
-In the Auto retrain box, select one of the following options:
+1) Open the project and select the model created by previous step
+2) From the Evaluation tab, in the Performance Monitoring section, click Edit configuration.
+3) Select a Spark service.
+4) Select a prediction type `multiclass`. If the type is known, it is automatically selected, otherwise in the Prediction type box select the type.
+5) In the Metric details section, select `accuracy`, input `0.8` as the threshold
+6) Feedback data connection, click Select source.
+7) On the Select feedback data source page, choose values for the Connection, Schema, and Table `drug_feedback_data`.
+8) On New table name (optional) field, input `DRUG_FEEDBACK_DATA_NEW`
+8) In the Record count required for re-evaluation box, type `20`
+9) In the Auto retrain box, select one of the following options:
+10) In Auto retrain, select `when model performance is below threshold`.
+11) In the Auto deploy box, select `when model performance is better than previous version`.
+12) Your performance monitoring configurations will look like:
 
-To start automatic retraining whenever model performance is below the threshold that you set, select when model performance is below threshold.
-To prohibit automatic retraining, select never.
-To start automatic retraining regardless of performance, select always.
-In the Auto deploy box, select one of the following options:
+![](https://github.com/mlhubca/learn/blob/master/images/feedback.png)
 
-To start automatic deployment whenever model performance is better than the previous version, select when model performance is better than previous version.
-To prohibit automatic deployment, select never.
-To start automatic deployment regardless of performance, select always.
-Click Save.
-
-Click Add feedback data, select a data file, and click Open.
+12) Click Save.
+13) Click Add feedback data, select a data file, and click Open.
 Click Begin evaluation.
 After automatic evaluation and retraining begins, a chart appears with the updated model performance metrics. You can use the chart controls to switch metrics or to view the results as a chart or as a table.
 
