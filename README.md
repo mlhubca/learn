@@ -9,5 +9,8 @@
 - [Create a model using SPSS Modeler](https://github.com/mlhubca/learn/tree/master/spss-bank-churn.md)
     Step-by-step tutorial on how to create a machine learning model using the SPSS Modeler on DSX
 
+- [Create a model using Model Builder](https://github.com/mlhubca/learn/tree/master/model-builder-bank-churn.md)
+    Step-by-step tutorial on how to create a machine learning model using DSX Model Builder
+    
 - [Lab Exercies](https://github.com/mlhubca/lab/tree/master)
     Lab exerices on vairous machine learning use cases
