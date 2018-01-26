@@ -12,15 +12,29 @@ Before you begin to set up continuous learning model evaluation, depending on th
 - an Apache Spark service
 - a Db2 Warehouse on Cloud instance to store the feedback data for batch predictions
 
-## Feedback data store
+
+**Procedure**
+
+## 1. Load datasets
+
+1) Download the following two datasets to your local machine. (Right click and select `Save Link as...`)
+  - [drug_train_data_2.csv](https://raw.githubusercontent.com/mlhubca/learn/master/data/drug_train_data_2.csv)
+  - [drug_feedback_data_2.csv](https://raw.githubusercontent.com/mlhubca/learn/master/data/drug_feedback_data_2.csv)
+
+2) Sign in to IBM Data Science Experiece (DSX), and create a new project.
+3) Load dataset `drug_train_data_2.csv` to the project.
+
+## 2. Set up feedback data store
 
 To retrain data, you must create a feedback data store. To send new records to the feedback store you must define a data connection by using Db2® Warehouse on Cloud, which is currently supported as a feedback data store for batch predictions. If the feedback table does not exist, the service creates it. If the table exists, the schema is verified to match that of the training table.
 
-## 1. Create a model using model builder
+1) Create a Db2 Warehouse on Cloud instance if you don't have one already
+  - 
 
-1) Download the following two datasets to your local machine.
-- [drug_train_data_2.csv](https://raw.githubusercontent.com/mlhubca/learn/master/data/drug_train_data_2.csv)
-- [drug_feedback_data_2.csv](https://raw.githubusercontent.com/mlhubca/learn/master/data/drug_feedback_data_2.csv)
+
+
+## 3. Create a model using model builder
+
 
 
 ## Set up continuous learning model evaluation
