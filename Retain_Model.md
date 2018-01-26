@@ -1,22 +1,25 @@
 # Continuous learning and model evaluation
 
-0
+
 Because model deployment is not a one-time event, you can use IBM Data Science Experience to retrain a model with new data. To do this, you use the IBM Watson™ Machine Learning continuous learning system, which provides automated monitoring of model performance, retraining, and redeployment to ensure prediction quality.
 
-Prerequisites
+
+## Prerequisites
 Before you begin, depending on the type of data and model, you must have the following resources:
 
-a model
-an IBM Watson Machine Learning instance
-an Apache Spark service
-a Db2 Warehouse on Cloud instance to store the feedback data for batch predictions
-Feedback data store
+- a model
+- an IBM Watson Machine Learning instance
+- an Apache Spark service
+- a Db2 Warehouse on Cloud instance to store the feedback data for batch predictions
+- Feedback data store
+
 To retrain data, you must create a feedback data store. To send new records to the feedback store you must define a data connection by using Db2® Warehouse on Cloud, which is currently supported as a feedback data store for batch predictions. If the feedback table does not exist, the service creates it. If the table exists, the schema is verified to match that of the training table.
 
-Set up continuous learning model evaluation
+## Set up continuous learning model evaluation
+
 You can create a performance monitoring system for your predictive models. Create an evaluation instance and then define metrics and triggers for the automatic retraining and deploying of the new model.
 
-Optional: While you can use the following steps, and the user interface that they explain, to upload feedback data and kick off evaluation, you can also call the available continuous learning REST API end-points directly to provide feedback data and kick off evaluation activities. For more information about the REST APIs, see REST API for Spark and Python models and REST API for SPSS models. You can integrate feedback APIs directly within your application, rather than performing model evaluation through the use of the following steps.
+**Optional**: While you can use the following steps, and the user interface that they explain, to upload feedback data and kick off evaluation, you can also call the available continuous learning REST API end-points directly to provide feedback data and kick off evaluation activities. For more information about the REST APIs, see REST API for Spark and Python models and REST API for SPSS models. You can integrate feedback APIs directly within your application, rather than performing model evaluation through the use of the following steps.
 
 Open a project and select a model.
 From the Evaluation tab, in the Performance Monitoring section, click Edit configuration.
