@@ -5,15 +5,23 @@ Because model deployment is not a one-time event, you can use IBM Data Science E
 
 
 ## Prerequisites
-Before you begin, depending on the type of data and model, you must have the following resources:
+Before you begin to set up continuous learning model evaluation, depending on the type of data and model, you must have the following resources:
 
 - a model
 - an IBM Watson Machine Learning instance
 - an Apache Spark service
 - a Db2 Warehouse on Cloud instance to store the feedback data for batch predictions
-- Feedback data store
+
+## Feedback data store
 
 To retrain data, you must create a feedback data store. To send new records to the feedback store you must define a data connection by using Db2® Warehouse on Cloud, which is currently supported as a feedback data store for batch predictions. If the feedback table does not exist, the service creates it. If the table exists, the schema is verified to match that of the training table.
+
+## 1. Create a model using model builder
+
+1) Download the following two datasets to your local machine.
+- [drug_train_data_2.csv](https://raw.githubusercontent.com/mlhubca/learn/master/data/drug_train_data_2.csv)
+- [drug_feedback_data_2.csv](https://raw.githubusercontent.com/mlhubca/learn/master/data/drug_feedback_data_2.csv)
+
 
 ## Set up continuous learning model evaluation
 
