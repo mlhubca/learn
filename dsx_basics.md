@@ -1,5 +1,3 @@
-Learning materials for IBM Data Science Experience, SPSS, Watson Machine Learning, etc.
-
 ## IBM Data Science Experience (DSX) 
 
 https://datascience.ibm.com/
