@@ -79,7 +79,14 @@ You can create a performance monitoring system for your predictive models. Creat
 ![](https://github.com/mlhubca/learn/blob/master/images/feedback.png)
 
 12) Click Save.
-13) Click Add feedback data, select a data file, and click Open.
-Click Begin evaluation.
-After automatic evaluation and retraining begins, a chart appears with the updated model performance metrics. You can use the chart controls to switch metrics or to view the results as a chart or as a table.
+13) Click Add feedback data, select data file `drug_feedback_data_2.csv`, and click Open.
+14) Click Begin evaluation.
+15) After automatic evaluation and retraining begins, a chart appears with the updated model performance metrics. You can use the chart controls to switch metrics or to view the results as a chart or as a table.
+
+![](https://github.com/mlhubca/learn/blob/master/images/evaluate.png)
+
+16) You also will see a new model being deployed:
+
+![](https://github.com/mlhubca/learn/blob/master/images/redeploy.png)
+
 
