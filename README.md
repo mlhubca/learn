@@ -12,5 +12,5 @@
 - [Create a model using Model Builder](https://github.com/mlhubca/learn/tree/master/model-builder-bank-churn.md)
     Step-by-step tutorial on how to create a machine learning model using DSX Model Builder
     
-- [Lab Exercies](https://github.com/mlhubca/lab/tree/master)
-    Lab exerices on vairous machine learning use cases
+- [Lab Exercises](https://github.com/mlhubca/lab/tree/master)
+    Lab exercises for various machine learning use cases
