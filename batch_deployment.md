@@ -27,14 +27,16 @@ for this tutorial.
 
 9. Once done, go back to the deployment creation page and push the "Select Target" button. From here you push the "Connections" tab and click on your newly created connection. Click the next folder then select the "PlayTennisResults.csv" file, then push the "Select" button on the bottom right.
 
-10. Now push save on the deployment creation page. This will bring you to all of your deployments for the project. From here refresh the page until the status of your new deployment goes to "COMPLETED".
+10. Beneath the "Select Target" button, enter a name that you will give to the results, but make sure you add ".csv" at the end (as an example, "results.csv"). 
 
-11. Congrats your deployment is done and you can now look at the results. To look at the results open up the bar on the left by pushing the 3 horizontal lines on the top left. Next when the bar opens up push the "Dashboard" button. 
+11. Now push save on the deployment creation page. This will bring you to all of your deployments for the project. From here refresh the page until the status of your new deployment goes to "COMPLETED".
 
-12. From here scroll down to "Services" and select "cloud-object-storage-id". Next under buckets, select your project's bucket (it has the project's name before the 'donotdelete' and all the numbers).
+12. Congrats your deployment is done and you can now look at the results. To look at the results open up the bar on the left by pushing the 3 horizontal lines on the top left. Next when the bar opens up push the "Dashboard" button. 
 
-13. Now find your "PlayTennisResults.csv" file and click the 3 dots beside it and click download.
+13. From here scroll down to "Services" and select "cloud-object-storage-id". Next under buckets, select your project's bucket (it has the project's name before the 'donotdelete' and all the numbers).
 
-14. Once you open it, there will be the original data that you created, but also there will a "nodeADP_class" column which says the prediction of the row based on your model. 
+14. Now find your "Results.csv" file and click the 3 dots beside it and click download.
 
-15. Thats it, you deployed your model using a batch deployment. Thanks for reading. :-)
+15. Once you open it, there will be the original data that you created, but also there will a "nodeADP_class" column which says the prediction of the row based on your model. 
+
+16. Thats it, you deployed your model using a batch deployment. Thanks for reading. :-)
